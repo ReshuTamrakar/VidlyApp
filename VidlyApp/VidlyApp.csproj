@@ -215,6 +215,14 @@
     <Compile Include="Migrations\202001081315085_AddGenreToMovie.Designer.cs">
       <DependentUpon>202001081315085_AddGenreToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001091219508_PopulateGenre.cs" />
+    <Compile Include="Migrations\202001091219508_PopulateGenre.Designer.cs">
+      <DependentUpon>202001091219508_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001091226051_PopulateGenreData.cs" />
+    <Compile Include="Migrations\202001091226051_PopulateGenreData.Designer.cs">
+      <DependentUpon>202001091226051_PopulateGenreData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -335,6 +343,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001081315085_AddGenreToMovie.resx">
       <DependentUpon>202001081315085_AddGenreToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001091219508_PopulateGenre.resx">
+      <DependentUpon>202001091219508_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001091226051_PopulateGenreData.resx">
+      <DependentUpon>202001091226051_PopulateGenreData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
