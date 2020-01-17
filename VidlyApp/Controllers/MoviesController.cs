@@ -31,7 +31,7 @@ namespace VidlyApp.Controllers
 
         public ActionResult Details(int id)
         {
-            var movies = _context.movies.SingleOrDefault(m=> m.Id==id);
+            var movies = _context.movies.Include(m =>m.Genre).SingleOrDefault(m=> m.Id==id);
 
             if(movies== null)
             {
